@@ -1,0 +1,88 @@
+
+
+#header{
+  background-image: linear-gradient(to right,#CCCCFF, white);
+  height:100px;
+  width:auto;
+  border-radius:20px;
+  margin: auto;
+  padding: 10px;
+ font-family:  Lucida handwriting;
+  color:purple;
+  font-weight:bold;
+}
+
+.canvas{
+  border: 2px solid black;
+  width:600px;
+  height:400px;
+ margin: 20px;
+  border-radius:20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+}
+
+.canvas2{
+   border: 2px solid black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8);
+  width:600px;
+  height:400px;
+ margin: 20px;
+  position:absolute;
+  border-radius:20px;
+}
+
+.d1{
+  margin: 20px;
+  border: 5px solid rgb(0,0,0,0);
+width:450px;
+  height:400px;
+  display:inline-block;
+  position:absolute;
+}
+
+
+.d2{
+   margin: 20px;
+  border: 5px solid rgb(0,0,0,0);
+width:450px;
+  height:400px;
+  display:inline-block;
+}
+
+#div{
+ 
+  margin:auto;
+  height:460px;
+  width:1150px;
+  border-radius:20px;
+  background-image: linear-gradient(to left,#CCCCFF, white);
+  
+}
+
+#div2{
+ background: lightblue;
+  margin:auto;
+  height:460px;
+  width:1150px;
+  border-radius:20px;
+  background-image: linear-gradient(to right,#CCCCFF ,white);
+  
+}
+ul{
+  font-family:  Lucida handwriting;
+  
+}
+.button{
+  border-radius:5px;
+  background:rgb(0,0,0,0);
+}
+.click{
+  background:indigo;
+  color:white;
+  font-weight:bold;
+   border-radius:5px;
+  padding:10px;
+}
+body{
+  background:white;
+}
