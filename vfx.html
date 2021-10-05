@@ -1,0 +1,59 @@
+
+<html>
+  <head><title></title>
+<link rel="stylesheet" href="C:\Users\bhara\Desktop\vfx\style.css"/>
+
+    <script type="text/javascript" src="C:\Users\bhara\Desktop\vfx\jscript.js"></script>
+
+  </head> 
+  <body>
+  
+  <center>  <div id="header"><h1>VFX</h1></div></center>
+    <p></p>
+  
+   <div id="div">
+     
+   <canvas class="canvas" id="c1"></canvas>
+     
+   <div class="d1">
+        <ul>
+          <li>Upload the "image" for foreground which has green background.</li>
+          <p></p>
+          
+          <li>Foreground Image :<input type="file" multiple="false" accept="image/*" id="fore_image" onchange="upload()"/></li>
+          <p></p>
+          <li>Note : Size of foreground and background must be same.</li>
+        </ul>
+     
+   </div>
+  </div>
+  
+  <p></p>
+  
+   <div id="div2">
+    <div class="d2">
+      <ul><li>
+        Upload the background image.
+      </li>
+        <p></p>
+          
+         <li> <p>Background Image :<input type="file" multiple="false" accept="image/*" id="back_image" onchange="bgupload()"/></p></li>
+        
+        <p></p>
+        <li>Click on "Create Composite ".</li>
+        
+        <p></p>
+        <li>Click on "Download" to download the composite image.</li>
+        
+        <p></p>
+        <p><input type = "button" value = "Creat Composite" class = "button" id="bt" onclick="change()"/>
+        <input type = "button" value = "Download" class = "button" id="btd" onclick = "download()" /></p>
+      </ul>
+   </div>
+   <canvas class="canvas2" id="c2"></canvas>
+  </div>
+  
+ 
+  
+  
+</body></html>
